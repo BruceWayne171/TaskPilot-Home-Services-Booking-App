@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_book_service"
+            android:icon="@drawable/ic_book"
+            android:title="Book a Service" />
+        <item
+            android:id="@+id/nav_requested"
+            android:icon="@drawable/ic_requested"
+            android:title="Requested Services" />
+        <item
+            android:id="@+id/nav_accepted"
+            android:icon="@drawable/ic_accepted"
+            android:title="Accepted Services" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Edit Profile" />
+    </group>
+
+    <!-- This creates a new section for the logout button -->
+    <item android:title="Account Actions">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
+

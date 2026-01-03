@@ -1,0 +1,11 @@
+# Android/IntelliJ
+.gradle/
+.idea/
+build/
+app/build/
+local.properties
+*.iml
+.DS_Store
+
+# XAMPP/System
+Thumbs.db
